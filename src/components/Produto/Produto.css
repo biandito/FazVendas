@@ -1,0 +1,38 @@
+.detalhes{
+    min-width: 500px;
+}
+
+.descricao{
+    padding: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    white-space: pre-line;
+    
+}
+
+.botaoCarrinho{
+    margin: 20px 0px;
+    :hover{
+        cursor: pointer;
+    }
+}
+
+.preco{
+    padding-top: 30px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.rota{
+
+  justify-content: space-between;
+  color: #656565;
+  font-size: 14px;
+  font-weight:400;
+
+  :hover{
+    font-weight:800;
+    cursor: pointer;
+  }
+}

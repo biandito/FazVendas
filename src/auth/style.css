@@ -1,0 +1,141 @@
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 50px;
+}
+
+.auth-form {
+  padding: 32px;
+  max-width: 400px;
+  width: 100%;
+  background: #f3f6f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.auth-login {
+  color: #66dbff;
+  margin-bottom: 32px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #f49728;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #f49728;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d47822;
+}
+
+.auth-p {
+  text-align: center;
+  color: #a29494;
+  margin-top: 16px;
+}
+
+a {
+  color: #007744;
+  text-decoration: none;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.profile-card {
+  background: #ffffff;
+  padding: 32px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-avatar {
+  text-align: center;
+}
+.profile-avatar img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-details h2 {
+  color: #66dbff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.profile-details p {
+  color: #333;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.profile-details input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #f49728;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.profile-buttons button {
+  width: 18%;
+  margin: auto;
+  display: flex;
+  padding: 12px;
+  background-color: #f49728;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-buttons button:hover {
+  background-color: #e48731;
+}
+
+.order-history {
+  background: #ffffff;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-history h3 {
+  color: #66dbff;
+  margin-bottom: 16px;
+}
+
